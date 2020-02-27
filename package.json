@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "## Requirements",
     "scripts": {
+        "start": "npm run start:server && npm run start:app",
         "start:app": "npm run start --prefix app",
         "start:server": "python manage.py runserver --prefix server"
     },
