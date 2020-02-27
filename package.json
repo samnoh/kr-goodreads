@@ -1,11 +1,11 @@
 {
     "name": "kr-goodreads",
     "version": "1.0.0",
-    "description": "## Requirements",
+    "description": "KR Goodreads",
     "scripts": {
         "start": "npm run start:server && npm run start:app",
         "start:app": "npm run start --prefix app",
-        "start:server": "python manage.py runserver --prefix server"
+        "start:server": "python server/manage.py runserver"
     },
     "repository": {
         "type": "git",
